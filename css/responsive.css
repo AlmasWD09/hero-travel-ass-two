@@ -1,6 +1,4 @@
-.hide{
-    display: none;
-}
+
 @media screen and (max-width:600px) {
     /* ============ navbar part start ============= */
     .container{
@@ -56,7 +54,6 @@
     .banner-field-button{
         width:100%;
     }
-    
     .search-icon {
         position: static;
         margin-top: 10px;
@@ -66,16 +63,15 @@
     /* ============ banner part end ============= */
 
 
+
+
     /* ============ popular part end ============= */
     .popular {
         flex-direction: column;
         padding:0 20px;
-        /* display: flex;
-        justify-content: space-between; */
     }
     .popular-content,.popular-photo {
         width: 100%;
-        /* width: 48%; */
     }
     .popular-items li {
         margin:15px 20px;
@@ -85,6 +81,42 @@
         padding: 0 20px;
     }
     /* ============ popular part end ============= */
+
+
+
+
+    /* ============ destination part end ============= */
+    .distination-cards{
+        grid-template-columns: 1fr;
+    }
+    .distination-card img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .distation-box-1{
+        grid-column: 1;
+    }
+    .distation-box-2{
+        grid-column: 1;
+    }
+    .distation-box-3{
+        grid-column: 1;
+    } 
+    .distation-box-4{
+        grid-column: 1;
+    }
+    .distation-box-5{
+        grid-column: 1;
+    }
+    .distation-box-6{
+        grid-column: 1;
+    }
+    .distation-box-7{
+        grid-column: 1;
+    }
+    /* ============ destination part end ============= */
 
 
     /* ============ service part end ============= */
@@ -111,15 +143,6 @@
         height: auto;
         margin: 20px;
         justify-content: center;
-        /* height: 450px;
-        background-image: url('../images/discount.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        border-radius: 10px;
-        margin-top: 20px;
-        display: flex;
-        justify-content: end; */
     }
     .discount-photo-content{
         background-color: rgba(194, 177, 169, 0.582);
@@ -133,13 +156,17 @@
     /* ============ service part end ============= */
 
 
-    /* ============ service part end ============= */
-    /* ============ service part end ============= */
 
 
-
-    /* ============ service part end ============= */
-    /* ============ service part end ============= */
+    /* ============ extra section start ============= */
+    .extablish-cards{
+    grid-template-columns: 1fr;
+    padding: 20px;
+    }
+    .extablish-card{
+    width: 100%;
+    }
+    /* ============ extra section end ============= */
 
 
 
@@ -180,6 +207,7 @@
     /* ============ service part end ============= */
 
 
+
     /* ============ footer part end ============= */
     .footer-content {
         width: 100%;
@@ -187,6 +215,5 @@
     .footer-icons {
        font-size: 30px;
        }
-       
+    }
     /* ============ footer part end ============= */
-}

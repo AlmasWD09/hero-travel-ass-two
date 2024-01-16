@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
 }
-
 /* ================================================
     Common css part start
 ================================================== */
@@ -26,22 +25,17 @@
 .primary-title {
     font-size: 40px;
     font-weight: 800;
-    /* border: 2px solid rgb(19, 201, 19); */
 }
-
 .primary-desc {
     font-size: 16px;
     font-weight: 400;
-    /* border: 2px solid salmon; */
 }
-
 
 .section-title {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
 }
-
 .section-desc {
     max-width: 500px;
     margin: 0 auto;
@@ -49,18 +43,14 @@
     font-size: 16px;
     font-weight: 400;
 }
-
 .container {
     width: 75%;
     max-width: 1240px;
     margin: 0 auto;
-    /* border: px solid red; */
 }
-
 .sectionGap {
     margin-top:20px;
 }
-
 /* ================================================
     Common css part end
 ================================================== */
@@ -69,37 +59,28 @@
 /* ================================================
     navbar part start
 ================================================== */
-nav{
-    background-color: gray;
-}
 .navbar-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-
 .navbar-logo {
     width: 50%;
     display: flex;
     align-items: center;
     gap: 15px;
 }
-
 .navbar-title {
     font-size: 35px;
     font-weight: 800;
 }
-
 .navbar-img {
     width: 50px;
     height: 50px;
 }
-
 .navbar-item {
     width: 50%;
 }
-
 .navbar-items {
     display: flex;
     justify-content: space-around;
@@ -184,26 +165,21 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-
 .popular-content {
     width: 48%;
 }
-
 .popular-items li {
     margin-bottom: 10px;
 }
-
 .popular-description {
     width: 95%;
 }
-
 .popular-photo {
     width: 48%;
     height: 450px;
     object-fit: cover;
     padding: 20px 0;
 }
-
 .popular-img {
     width: 100%;
     height: 100%;
@@ -222,18 +198,37 @@ nav{
     destination part start
 ================================================== */
 .destination{
-    height: 900px;
-    border: 1px solid green;
+    height: 100vh;
+    padding: 20px;
+    margin: 20px 0;
+}
+.destination-content{
+    margin: 20px 0;
 }
 .distination-cards{
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(3,1fr);
+    gap: 10px;
 }
-
+.distination-card{
+    position: relative;
+}
+.distination-card>div{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 24px;
+    font-weight: 800;
+}
 .distination-card img{
     width: 100%;
-    height: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 .distation-box-1{
     grid-column: 1/span 6;
@@ -242,19 +237,19 @@ nav{
     grid-column: 7/span 6;
 }
 .distation-box-3{
-
-}
+    grid-column: 1/span 4;
+} 
 .distation-box-4{
-    grid-column: 2/span 5;
+    grid-column: 5/span 5;
 }
 .distation-box-5{
-    grid-column: 9/span 3;
+    grid-column: 10/span 3;
 }
 .distation-box-6{
-    grid-column: 3/span 5;
+    grid-column: 1/span 5;
 }
 .distation-box-7{
-    grid-column: 6/span 7;
+    grid-column:  6/span 7;
 }
 /* ================================================
     destination part end
@@ -262,15 +257,12 @@ nav{
 
 
 
-
-
-
-
-
-
 /* ================================================
     service choose part start
 ================================================== */
+.service{
+    margin: 15px 0;
+}
 .service h3{
     margin-bottom: 5px;
 }
@@ -308,7 +300,6 @@ nav{
     padding: 10px;
     border-radius: 15px;
 }
-
 .service-icon {
     width: 10%;
     margin-bottom: 0px;
@@ -355,19 +346,34 @@ nav{
 
 
 /* ================================================
-    service choose part end
+    Extra section part start
 ================================================== */
+.extablish{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.extablish-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+.extablish-card{
+    width: 300px;
+    height: 260px;
+    box-shadow: rgba(50,50,93,0.25)0px 2px 5px -1px, rgba(0,0,0,0.3)0px 1px 3px -1px;
+}
+.icon{
+    font-size: 120px;
+    margin: 20px;
+    color: #FF5400;
+}
 /* ================================================
-    service choose part end
-================================================== */
-
-
-
-/* ================================================
-    service choose part end
-================================================== */
-/* ================================================
-    service choose part end
+    Extra section part end
 ================================================== */
 
 
@@ -428,23 +434,19 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-
 .newslater-content {
     width: 48%;
     height: 400px;
     border-radius: 15px;
 }
-
 .newletter-title {
     width: 90%;
     margin: 0 auto;
 }
-
 hr {
     width: 90%;
     margin: 20px auto;
 }
-
 .newletter-box {
     width: 90%;
     margin: 0 auto;
@@ -526,7 +528,6 @@ hr {
  margin: 10px 0;
  color: #FF5400;  
 }
-
 /* ================================================
     Footer part end
 ================================================== */
