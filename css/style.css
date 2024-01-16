@@ -60,11 +60,7 @@
 .sectionGap {
     margin-top:20px;
 }
-.section-flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 /* ================================================
     Common css part end
 ================================================== */
@@ -123,8 +119,6 @@ nav{
 
 
 
-
-
 /* ================================================
     banner part start
 ================================================== */
@@ -135,22 +129,21 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: #ffff;
 }
+.banner-heading{
+    padding-top: 10%;
+    margin-bottom: 10px;
+}
 .banner-field {
-    background-color: #cccccc7c;
-    padding: 15px;
-    border-radius: 5px;
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%);
-    display: flex;
-    justify-content: center;
-    column-gap: 10px;
+    width: 65%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   background-color: #cccccc7c;
 }
 .banner-input,
 .banner-select {
@@ -168,14 +161,12 @@ nav{
     border: none;
     border-radius: 5px;
 }
-
 .search-icon {
     position: absolute;
     margin-top: 10px;
     margin-left: -134px;
     color: #ffff;
 }
-
 /* ================================================
     banner part end
 ================================================== */
@@ -384,14 +375,49 @@ nav{
 
 
 /* ================================================
-    service choose part end
+    symplity part start
 ================================================== */
+.symplity{
+    display: flex;
+    justify-content: space-between;
+}
+.simplity-content{
+    width: 48%;
+    padding: 10px;
+}
+.simplity-items li{
+    margin: 10px;
+}
+.simplity-photo{
+    width: 50%;
+    height: 450px;
+    background-image:linear-gradient(to top,rgba(143, 211, 143, 0.945), rgba(0, 128, 0, 0.116)), url('../images/destination01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.simplity-photo-title{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.simplity-photo-title h3{
+    color:#ffff;
+}
+.fa-solid{
+    margin-right: 20px;
+}
+.simplity-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+    padding: 15px;
+}
 /* ================================================
-    service choose part end
+    symplity part end
 ================================================== */
-
-
-
 
 
 

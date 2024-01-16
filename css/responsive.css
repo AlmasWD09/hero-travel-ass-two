@@ -43,6 +43,26 @@
 
 
     /* ============ banner part start ============= */
+    .banner {
+        padding: 20px;
+    }
+    .banner-field {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .banner-input,
+    .banner-select,
+    .banner-field-button{
+        width:100%;
+    }
+    
+    .search-icon {
+        position: static;
+        margin-top: 10px;
+        margin-left: -134px;
+        color: #ffff;
+    }
     /* ============ banner part end ============= */
 
 
@@ -123,8 +143,18 @@
 
 
 
-    /* ============ service part end ============= */
-    /* ============ service part end ============= */
+    /* ============ symplity part start ============= */
+    .symplity{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .simplity-content{
+        width: 100%;
+    }
+    .simplity-photo{
+        width: 100%;
+    }
+    /* ============ symplity part end ============= */
 
 
 
