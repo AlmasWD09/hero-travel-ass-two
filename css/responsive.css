@@ -1,0 +1,162 @@
+.hide{
+    display: none;
+}
+@media screen and (max-width:600px) {
+    /* ============ navbar part start ============= */
+    .container{
+       width: 100%;
+    }
+    .navbar-box {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .navbar-logo {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .navbar-title {
+        font-size: 20px;
+    }
+    .navbar-img {
+        width: 30px;
+        height:30px;
+    }
+    .navbar-item {
+        width:50%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .navbar-items {
+        display: none;
+    }
+    .bar-icon{
+        display:block;
+        color:#FF5400;
+    }
+    /* ============ navbar part end ============= */
+
+
+
+    /* ============ banner part start ============= */
+    /* ============ banner part end ============= */
+
+
+    /* ============ popular part end ============= */
+    .popular {
+        flex-direction: column;
+        padding:0 20px;
+        /* display: flex;
+        justify-content: space-between; */
+    }
+    .popular-content,.popular-photo {
+        width: 100%;
+        /* width: 48%; */
+    }
+    .popular-items li {
+        margin:15px 20px;
+    }
+    .popular-description {
+        width: 95%;
+        padding: 0 20px;
+    }
+    /* ============ popular part end ============= */
+
+
+    /* ============ service part end ============= */
+    .service-cards {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 20px;
+        margin-top:30px;
+    }
+    .service-card-one, .service-card-two {
+        width: 100%;
+        padding: 20px;
+    }
+    .service-card-three {
+        width: 94%;
+        padding: 20px;
+        margin:20px auto
+    }
+    /* ============ service part end ============= */
+
+
+    /* ============ service part end ============= */
+    .discount-photo-one{
+        height: auto;
+        margin: 20px;
+        justify-content: center;
+        /* height: 450px;
+        background-image: url('../images/discount.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: end; */
+    }
+    .discount-photo-content{
+        background-color: rgba(194, 177, 169, 0.582);
+        margin: 40px;
+        padding: 40px;
+        border-radius: 10px;
+    }
+    .discount-content{
+        max-width: 400px;
+    }
+    /* ============ service part end ============= */
+
+
+    /* ============ service part end ============= */
+    /* ============ service part end ============= */
+
+
+
+    /* ============ service part end ============= */
+    /* ============ service part end ============= */
+
+
+
+    /* ============ service part end ============= */
+    /* ============ service part end ============= */
+
+
+
+
+    /* ============ service part end ============= */
+    .newletter {
+        flex-direction: column;
+        height: auto;
+    }
+    .newslater-content,.newslater-photo{
+        width: 100%;
+        height: auto;
+        padding: 40px 0 20px;
+    }
+    .newletter-title {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .newletter-box input {
+        margin-bottom:20px;
+        padding: 25px 10px;
+    }
+    /* ============ service part end ============= */
+
+
+    /* ============ footer part end ============= */
+    .footer-content {
+        width: 100%;
+    }
+    .footer-icons {
+       font-size: 30px;
+       }
+       
+    /* ============ footer part end ============= */
+}
