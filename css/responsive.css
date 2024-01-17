@@ -54,12 +54,6 @@
     .banner-field-button{
         width:100%;
     }
-    .search-icon {
-        position: static;
-        margin-top: 10px;
-        margin-left: -134px;
-        color: #ffff;
-    }
     /* ============ banner part end ============= */
 
 
@@ -138,7 +132,7 @@
     /* ============ service part end ============= */
 
 
-    /* ============ service part end ============= */
+    /* ============ discount choose  part start ============= */
     .discount-photo-one{
         height: auto;
         margin: 20px;
@@ -153,7 +147,34 @@
     .discount-content{
         max-width: 400px;
     }
-    /* ============ service part end ============= */
+    /* ============ discount choose  part end ============= */
+
+
+    /* ============ discount choose  part two start ============= */
+    .discountTwo-photo-one{
+        height: auto;
+        margin: 20px;
+        justify-content: center;
+    } 
+    .title-color{
+        color:#0e74ce ;
+    }
+    .discountTwo-button{
+        background-color: #0e74ce;
+        color: #ffff;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 20px;
+        margin: 5px 0;
+        border: none;
+        border-radius: 8px;   
+    }
+    .icone-size{
+        font-size:20px;
+        color: #0e74ce;
+        margin: 0 5px;
+    }
+    /* ============ discount choose  part end ============= */
 
 
 
@@ -186,7 +207,7 @@
 
 
 
-    /* ============ service part end ============= */
+    /* ============ newletter part start ============= */
     .newletter {
         flex-direction: column;
         height: auto;
@@ -204,11 +225,11 @@
         margin-bottom:20px;
         padding: 25px 10px;
     }
-    /* ============ service part end ============= */
+    /* ============ newletter part end ============= */
 
 
 
-    /* ============ footer part end ============= */
+    /* ============ footer part start ============= */
     .footer-content {
         width: 100%;
     }

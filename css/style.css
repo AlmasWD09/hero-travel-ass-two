@@ -143,9 +143,6 @@
     border-radius: 5px;
 }
 .search-icon {
-    position: absolute;
-    margin-top: 10px;
-    margin-left: -134px;
     color: #ffff;
 }
 /* ================================================
@@ -198,7 +195,7 @@
     destination part start
 ================================================== */
 .destination{
-    height: 100vh;
+    /* height: 100vh; */
     padding: 20px;
     margin: 20px 0;
 }
@@ -257,6 +254,7 @@
 
 
 
+
 /* ================================================
     service choose part start
 ================================================== */
@@ -311,7 +309,7 @@
 
 
 /* ================================================
-    discount choose part end 
+    discount choose part start 
 ================================================== */
 
 .discount-photo-one{
@@ -342,6 +340,60 @@
 /* ================================================
     discount choose part end
 ================================================== */
+
+
+
+
+/* ================================================
+    discount choose part two start
+================================================== */
+.discountTwo-photo-one{
+    height: 450px;
+    background-image: url('../images/discount.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+}
+.discountTwo-photo-content{
+    background-color: rgba(163, 180, 196, 0.452);
+    margin: 40px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.discountTwo-content{
+    max-width: 400px;
+}
+.title-color{
+    color:#0e74ce ;
+}
+.discountTwo-button{
+    background-color: #0e74ce;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 8px;   
+}
+.icone-size{
+    font-size:20px;
+    color: #0e74ce;
+    margin: 0 5px;
+}
+.discountTwo-btn{
+    text-align: center;
+}
+
+/* ================================================
+    discount choose part end
+================================================== */
+
+
 
 
 
